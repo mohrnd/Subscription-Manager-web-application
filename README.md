@@ -35,5 +35,5 @@ This project is a web-based subscription management system developed for a web p
 ## Contributors
 
 - **Backend Development:** [\[Mohrnd\]](https://github.com/mohrnd) with some help from [\[Azzeddine\]](https://github.com/LamariAzzeddine)
-- **CSS and Design:** [\[Azzeddine\]](https://github.com/LamariAzzeddine)
+- **CSS:** [\[Azzeddine\]](https://github.com/LamariAzzeddine)
 
