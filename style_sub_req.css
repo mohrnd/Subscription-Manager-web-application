@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background: url(https://media.licdn.com/dms/image/C4D1BAQHJ0bM1qXzs3Q/company-background_10000/0/1583754426368/setram_cover?e=2147483647&v=beta&t=lcTew1E2axAUM8V5-c3P1BpsmrSp8rFzbYUKyTrnTkg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont
+{
+    width: 60%;
+    height: 70%;
+    margin-top: 140px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    opacity: 0.85;
+    color: white;
+    overflow-y:auto ;
+    overflow-x:auto ;
+    
+}
+
+.left
+{
+    width: 50%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right
+{
+width: 50%;
+height: 100%;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.cont:hover
+{
+    opacity: 1;
+    cursor: pointer;   
+}
+
+.formbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    overflow: hidden;
+    height: 2rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%);
+    background-origin: border-box;
+    background-color: black;
+    color: white;
+    background-clip: content-box, border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+  }
+  
+
+  
+  
+  .formbot:hover {
+    z-index: 1;
+    background-color: #212121;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+  }
+  
+  
+  .formbot:active {
+    border: double 4px #FE53BB;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: none;
+  }
+  
+  .formbot:active .circle {
+    background: #FE53BB;
+  }
+  
+
+  
+  
+  @keyframes animStar {
+    from {
+      transform: translateY(0);
+    }
+  
+    to {
+      transform: translateY(-135rem);
+    }
+  }
+  
+  @keyframes animStarRotate {
+    from {
+      transform: rotate(360deg);
+    }
+  
+    to {
+      transform: rotate(0);
+    }
+  }
+  
+  @keyframes gradient_301 {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes pulse_3011 {
+    0% {
+      transform: scale(0.75);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+  
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+  
+    100% {
+      transform: scale(0.75);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.titre
+{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 25px;
+}
+
+.form {
+    border-radius: 10px;
+    outline: 2px solid #00a6fb;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #d6f1ff;
+    outline-offset: 3px;
+    padding: 10px 12.5px;
+    transition: all 0.2s ease;
+    width: 150px;
+    height: 1px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+  }
+  
+  .form:hover {
+    background-color: #fff;
+  }
+  
+  .form:focus {
+    outline-offset: -6px;
+    background-color: #d6f1ff;
+  }
+  
+  .formtxt
+  {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+
+
+  .gender
+{
+    background-color:black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gender:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

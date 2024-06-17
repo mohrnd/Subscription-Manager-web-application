@@ -1,0 +1,367 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+  background-color: black;
+}
+
+.titre1
+{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+  
+}
+.top
+{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+
+.bottom
+{
+    width: 100%;
+    height: 70vh;
+    background: url(https://media.licdn.com/dms/image/C4D1BAQHJ0bM1qXzs3Q/company-background_10000/0/1583754426368/setram_cover?e=2147483647&v=beta&t=lcTew1E2axAUM8V5-c3P1BpsmrSp8rFzbYUKyTrnTkg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottomtop
+{
+  width: 100%;
+  height: 30%;
+ 
+}
+.bottombottom
+{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ overflow-y: auto;
+ overflow-x: auto;
+ margin-top: 10px;
+}
+.img2
+{
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px black;
+    margin-left: 50px;
+    margin-right: 20%;
+    margin-top: 10px;
+  
+  
+}
+
+.top h1
+{
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+    color: whitesmoke;
+    margin-left: 40px;
+}
+
+
+
+.bouton-left{
+    border: unset;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #e8e8e8;
+    z-index: 1;
+    background: black;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+   }
+   
+   .bouton-left:hover {
+    color: black;
+    cursor: pointer;
+    background-color: whitesmoke;
+   }
+   
+
+
+
+.container_right
+{
+    width: 60%;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.85;
+  
+
+   
+    margin: 0 auto; /* Centrer le conteneur horizontalement */
+    overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+    overflow-x: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+   
+}
+
+.container_right:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.titre
+{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+  .form {
+    border-radius: 10px;
+    outline: 2px solid #00a6fb;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #d6f1ff;
+    outline-offset: 3px;
+    padding: 10px 12.5px;
+    transition: all 0.2s ease;
+    width: 150px;
+    height: 1px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+  }
+  
+  .form:hover {
+    background-color: #fff;
+  }
+  
+  .form:focus {
+    outline-offset: -6px;
+    background-color: #d6f1ff;
+  }
+  
+  .formtxt
+  {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+
+ 
+  .formbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    overflow: hidden;
+    height: 2rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%);
+    background-origin: border-box;
+    background-color: black;
+    color: white;
+    background-clip: content-box, border-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  
+
+  
+  
+  .formbot:hover {
+    z-index: 1;
+    background-color: #212121;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+  }
+  
+  
+  .formbot:active {
+    border: double 4px #FE53BB;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: none;
+  }
+  
+  .formbot:active .circle {
+    background: #FE53BB;
+  }
+  
+
+  
+  
+  @keyframes animStar {
+    from {
+      transform: translateY(0);
+    }
+  
+    to {
+      transform: translateY(-135rem);
+    }
+  }
+  
+  @keyframes animStarRotate {
+    from {
+      transform: rotate(360deg);
+    }
+  
+    to {
+      transform: rotate(0);
+    }
+  }
+  
+  @keyframes gradient_301 {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes pulse_3011 {
+    0% {
+      transform: scale(0.75);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+  
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+  
+    100% {
+      transform: scale(0.75);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    opacity:0.85 ;
+  }
+  
+  table:hover
+  {
+    cursor: pointer;
+    opacity: 1;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color:black;
+    font-weight: bold;
+    color: white;
+  }
+  
+tr
+{
+  background-color: whitesmoke;
+  color: black;
+}
+  tr:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  button {
+    padding: 6px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px;
+  }
+  
+  button:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  .bouton-left2{
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left: 12px;
+    padding-right: 18px;
+    border: unset;
+    border-radius: 15px;
+    color: black;
+    z-index: 1;
+    background: red;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 110px;
+   }
+   
+   .bouton-left2:hover {
+    color: red;
+    cursor: pointer;
+    background-color: black;
+   }

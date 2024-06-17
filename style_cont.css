@@ -1,0 +1,25 @@
+.container_right2
+{
+    width: 60%;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.85;
+  
+
+   
+    margin: 0 auto; /* Centrer le conteneur horizontalement */
+    overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+    overflow-x: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+   
+}
+
+.container_right2:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
